@@ -30,8 +30,8 @@
         </dependency>
         <dependency>
             <groupId>org.eclipse.hawkbit</groupId>
-            <artifactId>hawkbit-artifact-fs</artifactId>
-            <version>${project.version}</version>
+            <artifactId>hawkbit-extension-artifact-repository-s3</artifactId>
+            <version>0.10.1</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.hawkbit</groupId>

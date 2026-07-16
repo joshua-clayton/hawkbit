@@ -40,6 +40,13 @@
         <url>https://github.com/eclipse-hawkbit/hawkbit.git</url>
     </scm>
 
+    <repositories>
+        <repository>
+            <id>github-hawkbit-extensions</id>
+            <url>https://maven.pkg.github.com/joshua-clayton/hawkbit-extensions</url>
+        </repository>
+    </repositories>
+
     <properties>
         <!-- Overrides START - to be reviewed regularly current overrides against spring-boot 4.1.1-->
         <!-- Override logback version since 1.5.38 from spring-boot 4.1.1 is vulnerable -->
