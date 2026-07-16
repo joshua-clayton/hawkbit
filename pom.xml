@@ -40,6 +40,13 @@
         <url>https://github.com/eclipse-hawkbit/hawkbit.git</url>
     </scm>
 
+    <repositories>
+        <repository>
+            <id>github-hawkbit-extensions</id>
+            <url>https://maven.pkg.github.com/joshua-clayton/hawkbit-extensions</url>
+        </repository>
+    </repositories>
+
     <properties>
         <!-- Overrides START - to be reviewed regularly -->
         <!-- Override vulnerable commons-fileupload used by feign-form-spring (via spring-cloud-starter-openfeign) -->
