@@ -45,6 +45,12 @@
             <groupId>org.mariadb.jdbc</groupId>
             <artifactId>mariadb-java-client</artifactId>
         </dependency>
+        <!-- Required by mariadb-java-client's AWS IAM authentication plugin (credentialType=AWS-IAM) -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>rds</artifactId>
+            <version>2.25.0</version>
+        </dependency>
 
         <!-- Test -->
         <dependency>
