@@ -109,6 +109,15 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-collections4</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.mariadb.jdbc</groupId>
+            <artifactId>mariadb-java-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.github.joshua-clayton</groupId>
+            <artifactId>iam-maria-now</artifactId>
+            <version>0.1.0</version>
+        </dependency>
 
         <dependency> <!-- Static class generation -->
             <groupId>org.hibernate.orm</groupId>
